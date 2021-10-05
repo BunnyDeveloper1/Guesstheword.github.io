@@ -1,0 +1,35 @@
+  body{
+		font-family: Comic Sans MS, Comic Sans, cursive;
+		}
+            .btn_key{
+                width: 45px;
+                height: 45px;
+                background-image: url('images/box.png');
+                background-size: 45px 45px;
+                font-size: 30px;
+                align: center;
+                box-shadow: 0px 8px 15px;
+                border-radius: 10px;
+                border-color: brown;
+                
+            }
+            .btn_key:hover{
+                box-shadow: 0px 8px 35px;
+                border-color: white;
+            }
+            .lbl_key{
+                /*font-size: 30px;*/
+            }
+	#lbl{
+	       background-color: #76B947;
+	       font-weight:bold
+            }
+	#btn_box{
+	       background-color:#76B947;
+		height:425px;
+	    }
+	#man{
+	background-color:#76B947;
+	background-size: 310px 387px; 
+	background-repeat: no-repeat;
+	}

@@ -1,0 +1,65 @@
+<html>
+    <head>
+	    <title>HANGMAN</title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/javascriptygame.js">
+</script>
+<link rel="stylesheet" href="css/styleygame.css"/>
+    </head>
+<body onload="start();">
+    <div class="jumbotron-fluid" style="background-color:#F8D210">
+        <div class="container">
+            <h1 align="center">Welcome To Hangman Game</h1>
+        </div>
+ 
+	<div class="jumbotron" id="question" align="center" style="font-weight:bold; height:50px;"> </div>
+		<h6 align="center" >Length of Word:<span id="wlen"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Left:<span id="wleft"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Wrong:<span id="wwrong"></span></h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="jumbotron" id="lbl" align="center" style=" height:50px;">
+		
+      
+        </div>
+        <div class="jumbotron" align="center" id="btn_box" >
+		<div class="row">
+<div class="col-sm-4" id="man">
+</div>
+<div class="col-sm-4">
+            <button class="btn_key" onclick="clicks('A')" value="A">A</button>
+            <button class="btn_key" onclick="clicks('B')" value="B">B</button>
+            <button class="btn_key" onclick="clicks('C')" value="C">C</button>
+            <button class="btn_key" onclick="clicks('D')" value="D">D</button>
+            <button class="btn_key" onclick="clicks('E')" value="E">E</button>
+            <button class="btn_key" onclick="clicks('F')" value="F">F</button>
+            <button class="btn_key" onclick="clicks('G')" value="G">G</button>
+            <button class="btn_key" onclick="clicks('H')" value="H">H</button><br><br>
+            <button class="btn_key" onclick="clicks('I')" value="I">I</button>
+            <button class="btn_key" onclick="clicks('J')" value="J">J</button>
+            <button class="btn_key" onclick="clicks('K')" value="K">K</button>
+            <button class="btn_key" onclick="clicks('L')" value="L">L</button>
+            <button class="btn_key" onclick="clicks('M')" value="M">M</button>
+            <button class="btn_key" onclick="clicks('N')" value="N">N</button>
+            <button class="btn_key" onclick="clicks('O')" value="O">O</button>
+            <button class="btn_key" onclick="clicks('P')" value="P">P</button><br><br>
+            <button class="btn_key" onclick="clicks('Q')" value="Q">Q</button>
+            <button class="btn_key" onclick="clicks('R')" value="R">R</button>
+            <button class="btn_key" onclick="clicks('S')" value="S">S</button>
+            <button class="btn_key" onclick="clicks('T')" value="T">T</button>
+            <button class="btn_key" onclick="clicks('U')" value="U">U</button>
+            <button class="btn_key" onclick="clicks('V')" value="V">V</button>
+            <button class="btn_key" onclick="clicks('W')" value="W">W</button>
+            <button class="btn_key" onclick="clicks('X')" value="X">X</button><br><br>
+            <button class="btn_key" onclick="clicks('Y')" value="Y">Y</button>
+            <button class="btn_key" onclick="clicks('Z')" value="Z">Z</button>
+</div>
+		</div>
+        </div>
+	<div style="height:3px">
+	</div>
+    </div>
+</body>
+</html>
