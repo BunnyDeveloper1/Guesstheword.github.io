@@ -1,14 +1,13 @@
 <html>
     <head>
-	    <title>HANGMAN</title>
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>HANGMAN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="js/javascriptygame.js">
-</script>
-<link rel="stylesheet" href="css/styleygame.css"/>
+        <script src="js/javascriptygame.js"></script>
+        <link rel="css/stylesheet" href="styleygame.css"/>
     </head>
 <body onload="start();">
     <div class="jumbotron-fluid" style="background-color:#F8D210">
@@ -16,7 +15,7 @@
             <h1 align="center">Welcome To Hangman Game</h1>
         </div>
  
-	<div class="jumbotron" id="question" align="center" style="font-weight:bold; height:50px;"> </div>
+	<div class="jumbotron" id="question" align="center" style="font-weight:bold;"> </div>
 		<h6 align="center" >Length of Word:<span id="wlen"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		Left:<span id="wleft"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 		Wrong:<span id="wwrong"></span></h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -25,10 +24,8 @@
       
         </div>
         <div class="jumbotron" align="center" id="btn_box" >
-		<div class="row">
-<div class="col-sm-4" id="man">
-</div>
-<div class="col-sm-4">
+
+
             <button class="btn_key" onclick="clicks('A')" value="A">A</button>
             <button class="btn_key" onclick="clicks('B')" value="B">B</button>
             <button class="btn_key" onclick="clicks('C')" value="C">C</button>
@@ -55,8 +52,6 @@
             <button class="btn_key" onclick="clicks('X')" value="X">X</button><br><br>
             <button class="btn_key" onclick="clicks('Y')" value="Y">Y</button>
             <button class="btn_key" onclick="clicks('Z')" value="Z">Z</button>
-</div>
-		</div>
         </div>
 	<div style="height:3px">
 	</div>
